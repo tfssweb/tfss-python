@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other" />
+    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
+      <change beforePath="$PROJECT_DIR$/other/读取文件" beforeDir="false" afterPath="$PROJECT_DIR$/other/读取文件" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/other/读取文件">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -64,7 +66,17 @@
             <path>
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythons" type="462c0819:PsiDirectoryNode" />
               <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythons" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlToExcel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -74,6 +86,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\001\git\pythons\files" />
       <recent name="D:\code\001\git\pythons\xmlToExcel" />
     </key>
   </component>
@@ -89,7 +102,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xmlToExcel">
+  <component name="RunManager" selected="Python.读取文件">
+    <configuration name="读取文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/读取文件" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="installPythonAuto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.读取文件" />
         <item itemvalue="Python.xmlToExcel" />
         <item itemvalue="Python.installPythonAuto" />
         <item itemvalue="Python.success_excel" />
@@ -196,13 +231,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1273224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32967034" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32844934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -264,10 +299,20 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/files/data_0000ZCC02.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/130000.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/other/读取文件">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
