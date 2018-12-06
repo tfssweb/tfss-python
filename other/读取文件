@@ -1,0 +1,7 @@
+file_content = open('data_0000ZCC02.txt','rU')
+try:
+    for line in file_content:
+         print(line)
+finally:
+    file_content.close()
+
