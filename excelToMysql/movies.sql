@@ -21,8 +21,8 @@ SET FOREIGN_KEY_CHECKS=0;
 DROP TABLE IF EXISTS `movies`;
 CREATE TABLE `movies` (
   `name` varchar(255) DEFAULT NULL,
-  `count` varchar(11) DEFAULT NULL,
-  `score` int(11) DEFAULT NULL,
+  `count` varchar(255) DEFAULT NULL,
+  `score` varchar(255) DEFAULT NULL,
   `content` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
