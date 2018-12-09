@@ -15,7 +15,7 @@ url = 'https://www.nihaowua.com/home.html'
 
 def main(): #写入txt文本程序
     count = 0
-    with open("soup.txt", "a") as f:
+    with open("soup.txt", "a",encoding="UTF-8") as f:
             while True:
                 res = requests.get(url=url, headers=headers,timeout=10)
                 res.encoding = 'utf-8'
@@ -25,7 +25,9 @@ def main(): #写入txt文本程序
                 content = results[0]
                 f.write(content + '\n')
                 count += 1
-                print('********正在爬取中，这是第{}次爬取********'.format(count))
-
+                print('********正在爬取中，这是第{}次爬取********'.format(count),content)
+                # 超过500条，循环结束
+                if count == 500:
+                    break
 if __name__ == '__main__':
 	main()
