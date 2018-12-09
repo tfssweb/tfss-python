@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duJiTang/duJiTang.py" beforeDir="false" afterPath="$PROJECT_DIR$/duJiTang/duJiTang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiDuPictures/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baiDuPictures/downPictures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,35 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duJiTang/duJiTang.py">
+        <entry file="file://$PROJECT_DIR$/baiDuPictures/downPictures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="292">
+              <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#46#55#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pymsql/pymsql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -74,6 +54,7 @@
         <option value="$PROJECT_DIR$/excelToMysql/movies.sql" />
         <option value="$PROJECT_DIR$/duJiTang/soup.txt" />
         <option value="$PROJECT_DIR$/duJiTang/duJiTang.py" />
+        <option value="$PROJECT_DIR$/baiDuPictures/downPictures.py" />
       </list>
     </option>
   </component>
@@ -101,22 +82,7 @@
             <path>
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="duJiTang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="pymsql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlToExcel" type="462c0819:PsiDirectoryNode" />
+              <item name="baiDuPictures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,8 +117,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.duJiTang">
-    <configuration name="读取文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.downPictures">
+    <configuration name="downPictures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/baiDuPictures" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/读取文件" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/baiDuPictures/downPictures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.downPictures" />
         <item itemvalue="Python.duJiTang" />
         <item itemvalue="Python.excelToMysql" />
         <item itemvalue="Python.sortMovies" />
         <item itemvalue="Python.pymsql" />
-        <item itemvalue="Python.读取文件" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +265,12 @@
     <frame x="-8" y="-8" width="1295" height="648" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26968974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26968974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26213592" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26213592" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,19 +418,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duJiTang/soup.txt">
+    <entry file="file://$PROJECT_DIR$/duJiTang/duJiTang.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="235">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duJiTang/duJiTang.py">
+    <entry file="file://$PROJECT_DIR$/duJiTang/soup.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        <state relative-caret-position="-95">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiDuPictures/downPictures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#46#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
