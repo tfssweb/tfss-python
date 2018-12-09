@@ -1,6 +1,9 @@
 import openpyxl
 import pymysql.cursors
 
+'''
+将excel数据存储到mysql数据库
+'''
 # Excel file
 wb = openpyxl.load_workbook('./movies.xlsx')
 # Get the active worksheet
