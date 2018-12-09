@@ -8,7 +8,7 @@ from tqdm import tqdm
 
 def download_file(url: str, save_path: str)->bool:
     """
-    下载文件并显示下载进度
+    下载文件并显示下载进度。
     :param url: 文件url
     :param save_path: 保存路径
     :return:
