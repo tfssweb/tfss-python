@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
-      <change afterPath="$PROJECT_DIR$/baiDuPictures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baiDuPictures/downPictures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/baiDuPictures/downPictures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+            <state relative-caret-position="102">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
               <folding>
                 <element signature="e#46#55#0" expanded="true" />
               </folding>
@@ -79,11 +75,6 @@
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="baiDuPictures" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -117,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.downPictures">
+  <component name="RunManager" selected="Python.qrcode">
     <configuration name="downPictures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pymsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="qrcode" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pymsql" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qrcode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pymsql/pymsql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qrcode/qrcode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qrcode" />
         <item itemvalue="Python.downPictures" />
         <item itemvalue="Python.duJiTang" />
         <item itemvalue="Python.excelToMysql" />
         <item itemvalue="Python.sortMovies" />
-        <item itemvalue="Python.pymsql" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +254,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1295" height="648" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26968974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -435,10 +425,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/baiDuPictures/孙悟空/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiDuPictures/孙悟空/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baiDuPictures/孙悟空/22.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/baiDuPictures/downPictures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="135" column="65" selection-start-line="135" selection-start-column="65" selection-end-line="135" selection-end-column="65" />
+        <state relative-caret-position="102">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
           <folding>
             <element signature="e#46#55#0" expanded="true" />
           </folding>
