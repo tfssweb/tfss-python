@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # encoding=utf-8
 '''
-爬取豆瓣电影top250
+爬取豆瓣电影top250，并生产excel
 '''
 import requests
 import re
