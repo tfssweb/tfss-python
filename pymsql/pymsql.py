@@ -1,7 +1,7 @@
 import pymysql.cursors
 
 
-# 连接MySQL数据库
+# 连接MySQL数据库。
 connection = pymysql.connect(host='172.18.18.203', port=23306, user='root', password='root', db='guest', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
 
 
