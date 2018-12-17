@@ -2,7 +2,7 @@
 
 运行步骤：
 ```
-1. git clone https://github.com/abbeyokgo/flask_multi_uploader.git
+1. git clone https://github.com/tfssweb/pythons.git
 2. cd flask_multi_uploader
 3. pip install -r requirements.txt
 4. gunicorn -k eventlet -b 0:8888 server:app
