@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flask文件上传</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.css"></script>
+    <script src="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/webuploader/0.1.1/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css">
+</head>
+
+<body>
+    <div>
+        <div id="picker">请选择</div>   <!-- 上传按钮，必须指定id选择器的值 -->
+        <div class="progress">         <!-- 进度条 -->
+            <div class="progress-bar progress-bar-striped active" role="progressbar" style="width:0%;"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var task_id = WebUploader.Base.guid();        //产生task_id
+        var uploader = WebUploader.create({           //创建上传控件
+            swf: 'https://cdn.bootcss.com/webuploader/0.1.1/Uploader.swf', //swf位置，这个可能与flash有关
+            server: '{{url_for(".index")}}',                 //接收每一个分片的服务器地址
+            pick: '#picker',                          //填上传按钮的id选择器值
+            auto: true,                               //选择文件后，是否自动上传
+            chunked: true,                            //是否分片
+            chunkSize: 20 * 1024 * 1024,              //每个分片的大小，这里为20M
+            chunkRetry: 3,                            //某分片若上传失败，重试次数
+            threads: 1,                               //线程数量，考虑到服务器，这里就选了1
+            duplicate: true,                          //分片是否自动去重
+            formData: {                               //每次上传分片，一起携带的数据
+                task_id: task_id,
+            },
+        });
+
+        uploader.on('startUpload', function() {       //开始上传时，调用该方法
+            $('.progress-bar').css('width', '0%');
+            $('.progress-bar').text('0%');
+        });
+
+        uploader.on('uploadProgress', function(file, percentage) { //一个分片上传成功后，调用该方法
+            $('.progress-bar').css('width', percentage * 100 - 1 + '%');
+            $('.progress-bar').text(Math.floor(percentage * 100 - 1) + '%');
+        });
+
+        uploader.on('uploadSuccess', function(file) { //整个文件的所有分片都上传成功，调用该方法
+            //上传的信息（文件唯一标识符，文件后缀名）
+            var data = {'task_id': task_id, 'ext': file.source['ext'], 'type': file.source['type']};
+            $.get('{{ url_for(".upload_success") }}', data);          //ajax携带data向该url发请求
+            $('.progress-bar').css('width', '100%');
+            $('.progress-bar').text('上传完成');
+        });
+
+        uploader.on('uploadError', function(file) {   //上传过程中发生异常，调用该方法
+            $('.progress-bar').css('width', '100%');
+            $('.progress-bar').text('上传失败');
+        });
+
+        uploader.on('uploadComplete', function(file) {//上传结束，无论文件最终是否上传成功，该方法都会被调用
+            $('.progress-bar').removeClass('active progress-bar-striped');
+        });
+
+    });
+    </script>
+</body>
+
+</html>
