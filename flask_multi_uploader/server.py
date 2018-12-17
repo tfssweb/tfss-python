@@ -4,6 +4,7 @@
 import os
 
 from flask import Flask, request, Response, render_template,jsonify
+from numpy import unicode
 
 app = Flask(__name__)
 
@@ -21,7 +22,7 @@ def checkChunk():
 @app.route('/mergeChunks', methods=['POST'])
 def mergeChunks():
     fileName=request.form.get('fileName')
-    print fileName
+    print(fileName)
     md5=request.form.get('fileMd5')
     chunk = 0  # 分片序号
     with open(u'./upload/{}'.format(fileName), 'wb') as target_file:  # 创建新文件
@@ -31,7 +32,7 @@ def mergeChunks():
                 source_file = open(filename, 'rb')  # 按序打开每个分片
                 target_file.write(source_file.read())  # 读取分片内容写入新文件
                 source_file.close()
-            except IOError, msg:
+            except IOError as msg:
                 break
             chunk += 1
             os.remove(filename)  # 删除该分片，节约空间
