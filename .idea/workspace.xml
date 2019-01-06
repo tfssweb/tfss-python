@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
-      <change beforePath="$PROJECT_DIR$/printHourTime/printHourTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/printHourTime/printHourTime.py" afterDir="false" />
-    </list>
+    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="397">
+              <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
               </folding>
@@ -102,11 +100,6 @@
             <path>
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="printHourTime" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,12 +283,12 @@
     <frame x="-8" y="-8" width="1909" height="964" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18492785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18492785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39350182" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39350182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -527,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="397">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
           </folding>

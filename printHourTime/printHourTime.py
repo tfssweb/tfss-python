@@ -36,13 +36,13 @@ def monthRange(beginDate, endDate):
     return sorted(monthList)
 
 
-def dateHourRange(beginDateHour, endDateHour):
+def dateHourRange(beginDateHour, endDateHour,step=1):
     dhours = []
     dhour = datetime.datetime.strptime(beginDateHour, "%Y-%m-%d %H:00:00")
     date = beginDateHour[:]
     while date <= endDateHour:
         dhours.append(date)
-        dhour = dhour + datetime.timedelta(hours=1)
+        dhour = dhour + datetime.timedelta(hours=step)
         date = dhour.strftime("%Y-%m-%d %H:00:00")
     return dhours
 
@@ -57,7 +57,7 @@ print(monthRange(beginDate='2018-12-01', endDate='2018-12-31'))
 
 print(dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 00:00:00'))
 
-dist_hour = dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 23:00:00')
+dist_hour = dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 23:00:00',step=1)
 for hour in dist_hour:
     print(hour)
 
