@@ -57,6 +57,8 @@ print(monthRange(beginDate='2018-12-01', endDate='2018-12-31'))
 
 print(dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 00:00:00'))
 
-dist_hour = dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 00:00:00')
+dist_hour = dateHourRange(beginDateHour='2018-12-01 00:00:00', endDateHour='2018-12-31 23:00:00')
 for hour in dist_hour:
     print(hour)
+
+print(len(dist_hour))
