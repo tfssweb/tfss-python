@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
-      <change afterPath="$PROJECT_DIR$/m3u8_links/m3u8.py" afterDir="false" />
-    </list>
+    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state>
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -24,25 +22,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="458">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/m3u8_links/m3u8.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,11 +92,6 @@
             <path>
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythons" type="462c0819:PsiDirectoryNode" />
-              <item name="m3u8_links" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +280,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39350182" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39350182" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state>
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -529,22 +510,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
+    <entry file="file://$PROJECT_DIR$/m3u8_links/m3u8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/m3u8_links/m3u8.py">
+    <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="125" column="13" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+        <state relative-caret-position="458">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#23#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
