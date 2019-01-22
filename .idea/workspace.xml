@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other" />
+    <list default="true" id="0a4c1b59-a57e-427d-bf13-f73cfa2cc9cf" name="Default Changelist" comment="添加other">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xls2Json/lhs_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/xls2Json/lhs_parser.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="285">
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -22,13 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="969">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xls2Json/lhs_parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="e#37#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,6 +84,7 @@
         <option value="$PROJECT_DIR$/get-email-by-tieba/get-email-by-tieba-multithreading.py" />
         <option value="$PROJECT_DIR$/printHourTime/printHourTime.py" />
         <option value="$PROJECT_DIR$/m3u8_links/m3u8.py" />
+        <option value="$PROJECT_DIR$/xls2Json/lhs_parser.py" />
       </list>
     </option>
   </component>
@@ -93,6 +109,11 @@
               <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythons" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pythons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythons" type="462c0819:PsiDirectoryNode" />
+              <item name="xls2Json" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -104,15 +125,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\001\git\pythons" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\001\git\pythons\xls2Json" />
       <recent name="D:\code\001\git\pythons\qrcode" />
       <recent name="D:\code\001\git\pythons\excelToMysql" />
       <recent name="D:\code\001\git\pythons\pymsql" />
       <recent name="D:\code\001\git\pythons\files" />
-      <recent name="D:\code\001\git\pythons\xmlToExcel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\001\git\pythons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -493,16 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pymsql/pymsql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -520,12 +531,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/excelToMysql/excelToMysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/printHourTime/printHourTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="969">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xls2Json/lhs_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#37#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
