@@ -1,0 +1,10 @@
+filename=<usth_emal_info_2013.xls>
+title=<姓名>
+ignoreword=<社会,保障局,和,）,（,中国,中心>
+background=<love.jpg>
+fontfile=<STFANGSO.TTF>
+background_color=<white>
+max_words=<200>
+ignor_blow_num=<0>
+picture_width=<500>
+picture_height=<300>

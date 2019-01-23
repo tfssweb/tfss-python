@@ -1,0 +1,5 @@
+filename=<Data.csv>
+title=<档案转寄单位>
+ignoreword=<社会,保障局,和,）,（,分行,分配,股份,有限责任,就业指导,第一,第二,第三,第四,第五,第六,中国,中心>
+background=<love.jpg>
+fontfile=<>
