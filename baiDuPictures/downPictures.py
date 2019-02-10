@@ -75,7 +75,7 @@ class Crawler:
                 print("产生未知错误，放弃保存")
                 continue
             else:
-                print("小黄图+1,已有" + str(self.__counter) + "张小黄图")
+                print("图片+1,已有" + str(self.__counter) + "张图片")
                 self.__counter += 1
         return
 
