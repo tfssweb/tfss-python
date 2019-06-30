@@ -8,7 +8,7 @@
 # 简介：
 > :whale: :whale: :whale:
 
-> Tfss-Pythons 是日常使用的一些Dockerfile的汇总项目。 开源地址：https://github.com/tfssweb/tfss-pythons
+> Tfss-Pythons 是日常使用的一些 python 的汇总项目。 开源地址：https://github.com/tfssweb/tfss-pythons
 
 > 开发作者：[颓废书生](https://tfssweb.github.io/)
 
@@ -28,9 +28,7 @@ pip install -r requirements.txt
 
 # 技术栈
 
-- pythons
-- docker
-
+- python
 
 
 ## 相关链接：
