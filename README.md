@@ -1,14 +1,14 @@
-<h1 align="center"><a href="https://github.com/tfssweb" target="_blank">Tfss-Pythons</a></h1>
+<h1 align="center"><a href="https://github.com/tfssweb" target="_blank">Tfss-Python</a></h1>
 
 <p align="center">
-<a href="https://tfssweb.github.io/"><img alt="Author" src="https://img.shields.io/badge/author-%E9%A2%93%E5%BA%9F%E4%B9%A6%E7%94%9F-blue.svg"/></a>  <a href="https://tfssweb.github.io/"><img alt="公众号" src="https://img.shields.io/badge/公众号-颓废书生-mauve.svg"/></a>  <a href="https://github.com/tfssweb/tfss-pythons"><img alt="star" src="https://img.shields.io/github/stars/tfssweb/tfss-pythons.svg?label=Stars&style=social"/></a>  <a href="https://github.com/tfssweb/tfss-pythons"><img alt="star" src="https://img.shields.io/github/forks/tfssweb/tfss-pythons.svg?label=Forks&style=social"/></a>
+<a href="https://tfssweb.github.io/"><img alt="Author" src="https://img.shields.io/badge/author-%E9%A2%93%E5%BA%9F%E4%B9%A6%E7%94%9F-blue.svg"/></a>  <a href="https://tfssweb.github.io/"><img alt="公众号" src="https://img.shields.io/badge/公众号-颓废书生-mauve.svg"/></a>  <a href="https://github.com/tfssweb/tfss-python"><img alt="star" src="https://img.shields.io/github/stars/tfssweb/tfss-python.svg?label=Stars&style=social"/></a>  <a href="https://github.com/tfssweb/tfss-python"><img alt="star" src="https://img.shields.io/github/forks/tfssweb/tfss-python.svg?label=Forks&style=social"/></a>
 
 </p>
 
 # 简介：
 > :whale: :whale: :whale:
 
-> Tfss-Pythons 是日常使用的一些 python 的汇总项目。 开源地址：https://github.com/tfssweb/tfss-pythons
+> Tfss-Python 是日常使用的一些 python 的汇总项目。 开源地址：https://github.com/tfssweb/tfss-python
 
 > 开发作者：[颓废书生](https://tfssweb.github.io/)
 
